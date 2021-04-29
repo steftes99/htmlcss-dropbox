@@ -1,0 +1,49 @@
+header{
+    height: 80px;
+    position: fixed;
+   
+
+}
+#logo{
+    width: 8%;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.list1{
+    display: inline;
+    bottom: 7%;
+    position: relative;
+
+}
+.list2{
+    display: inline;
+    bottom: 7%;
+    left: 25%;
+    position: relative;
+    
+}
+
+header > ul > li{
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    
+}
+.btn{
+    width: 100px;
+    height: 80px;
+    position: relative;
+    left: 30%;
+    bottom: 7%;
+    display: inline;
+    background-color: #3b85ff;
+    padding: 5px 15px;
+}
+.contenuto{
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
