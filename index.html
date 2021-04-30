@@ -8,14 +8,15 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <img id="logo" src="img/logo.png" alt="Logo">
 
         <ul class="list1">
-            <li>Perché dropbox?</li>
+            <li>Perché Dropbox?</li>
             <li>Funzioni</li>
             <li>Piani e prezzi</li>
         </ul>
@@ -40,20 +41,20 @@
                 <span class="contenuto">Inizia la tua prova gratuita</span>
             </div>
             <span class="annulla">Annulla in qualsiasi momento</span>
-            <i id="arrow" class="fas fa-long-arrow-alt-down"> <a href="#"></a></i>
+             <a href="#prezzi"><i id="arrow" class="fas fa-long-arrow-alt-down"></i></a>
         
             <img class="img1" src="img/img1.png" alt="">
         </div>
         <!-- fine jumbotron -->
-        <div class="container">
+        <div id="prezzi" class="container">
             <h1>Trova il piano Dropbox Business che fa per te</h1>
             
             <div class="radiobox">
 
-                <input type="radio">
+                <input type="radio" name="fatturazione">
                 <span class="radiotext">Fatturazione mensile</span>
 
-                <input type="radio">
+                <input type="radio" name="fatturazione">
                 <span class="radiotext">Fatturazione annuale</span>
                 
             </div>
@@ -77,7 +78,7 @@
                 <div class="caratteristiche">
                     <p class="utente"><i class="far fa-user"></i> 1 utente</p>
                     <p class="utente"><i class="far fa-folder"></i> 3 TB di spazio di archiviazione sicuro</p>
-                    <p class="utente"><i class="fas fa-highlighter"></i>Funzioni di produttività premium e condivisione file semplice e sicura</p>
+                    <p class="utente"><i class="fas fa-highlighter"></i> Funzioni di produttività premium e condivisione file semplice e sicura</p>
                 </div>
 
                 <div class="btn colonna">
@@ -101,7 +102,7 @@
                 
             </div>
 
-            <div class="col2">
+            <div class="col">
                 <div class="info">
                     
                     <p class="team">
@@ -119,7 +120,7 @@
                 <div class="caratteristiche2">
                     <p class="utente"><i class="far fa-user"></i> 3+ utenti</p>
                     <p class="utente"><i class="far fa-folder"></i> 5 TB di spazio di archiviazione sicuro</p>
-                    <p class="utente"><i class="fas fa-highlighter"></i>Strumenti semplici da usare per la gestione del team e la collaborazione</p>
+                    <p class="utente"><i class="far fa-smile"></i> Strumenti semplici da usare per la gestione del team e la collaborazione</p>
                 </div>
 
                 <div class="btn colonna">
@@ -144,19 +145,19 @@
 
             </div>
 
-            <div class="col2">
+            <div class="col">
                 <div class="info">
                     <p class="team"><i class="fas fa-city"></i><span>team</span></p>
                 </div>
                 <div class="prezzo">
                     <h2>Advanced</h2>
                     <p class="soldi">18€</p>
-                    <p class="mese">/utente /mese ,<br>a partire da 3 utenti</p>
+                    <p class="mese">/utente /mese,<br>a partire da 3 utenti</p>
                 </div>
                 <div class="caratteristiche2">
                     <p class="utente"><i class="far fa-user"></i> 3+ utenti</p>
                     <p class="utente"><i class="far fa-folder"></i> Tutto lo spazio di cui ha bisogno il tuo team</p>
-                    <p class="utente"><i class="fas fa-highlighter"></i>Funzioni sofisticate di amministrazione, audit, sicurezza e integrazione</p>
+                    <p class="utente"><i class="far fa-smile"></i> Funzioni sofisticate di amministrazione, audit, sicurezza e integrazione</p>
                 </div>
 
                 <div class="btn colonna">
@@ -170,7 +171,7 @@
                     Punti salienti del piano
                 </p>
 
-                <ul>
+                <ul class="lista2">
                     <li><span class="check">&#10003;</span> Accesso amministratore unico per gestire più team</li>
                     <li><span class="check">&#10003;</span> Controlli amministrativi avanzati</li>
                     <li><span class="check">&#10003;</span> Ruoli amministratore distinti</li>
@@ -181,9 +182,25 @@
 
 
             </div>
+            
 
         </div>
 
+        <div class="container">
+                <div class="enterprise">
+                    <div class="info">
+                        <p class="team"><i class="fas fa-city"></i><span>team</span></p>
+                    </div>
+                    <h2>Enterprise</h2>
+                    <p class="soldi">Contatta l'ufficio vendite per i prezzi</p>
+                    <p class="utente">Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</p>
+                    <div class="btn xxl">
+                        <span class="contenuto">Contatta l'ufficio vendite</span>
+                    </div>
+                </div>
+                
+            
+        </div>
     </main>
     
 </body>

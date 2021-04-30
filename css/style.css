@@ -27,17 +27,18 @@ header{
 .list2{
     display: inline;
     bottom: 7%;
-    left: 25%;
+    left: 20%;
     position: relative;
     
 }
 
 header > ul > li{
     display: inline;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 18px;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     
 }
 .btn{
@@ -46,16 +47,18 @@ header > ul > li{
 .small{
     width: 100px;
     height: 80px;
-    left: 30%;
+    left: 25%;
     bottom: 7%;
     display: inline;
-    background-color: #3b85ff;
+    background-color: #0061ff;
     padding: 5px 15px;
 }
 .contenuto{
     color: white;
     font-family: 'Open Sans', sans-serif;
     font-weight: 500;
+    text-align: center;
+    margin: auto;
 }
 .jumbotron{
     height: 800px;
@@ -64,12 +67,11 @@ header > ul > li{
     
 }
 .jumbotron > h1{
-    font-size: 60px;
+    font-size: 80px;
     line-height: 108px;
     padding: 140px 60px 10px 60px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    
+    font-family: 'Antonio', sans-serif;
+    letter-spacing: -2px;
 }
 .jumbotron > p{
     font-size: 16px;
@@ -99,6 +101,9 @@ header > ul > li{
     font-family: 'Open Sans', sans-serif;
     font-weight: 500;
 }
+a{
+    color: black;
+}
 #arrow{
     font-size: 40px;
     position: relative;
@@ -123,10 +128,13 @@ header > ul > li{
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     text-align: center;
+
+    
    
 }
 .radiobox{
     margin-top: 50px;
+    margin-bottom: 50px;
     position: relative;
     left: 4%;
 }
@@ -138,30 +146,19 @@ header > ul > li{
     font-weight: 400;
 }
 .col{
-    width: 300px;
-    height: 985px;
-    margin: 30px 50px 0 50px;
+    width: calc(90% / 3);
+    height: 1100px;
+    margin: 20px;
     border: 2px solid lightgrey;
-    display: inline-block;
-    float: left;
-    
-    
+    display: inline;
+    float: left; 
 }
-.col2{
-    width: 300px;
-    height: 985px;
-    margin: 30px 50px 0 50px;
-    border: 2px solid lightgrey;
-    display: inline-block;
-    float: left;
-    
 
-}
 .container::after{
     content: "";
     clear: both;
     display: table;
-}
+} 
 .info{
     border-bottom: 2px solid lightgrey;
     height: 50px;
@@ -186,19 +183,26 @@ header > ul > li{
     text-transform: capitalize;
     padding-top: 15px;
 }
+.prezzo{
+    padding: 0;
+}
 
-.prezzo > h2{
+ h2{
     text-align: left;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
-    margin: 20px;
+    margin: 20px 0 20px 20px;
+    width: 50%;
+    display: inline-block;
+    
 }
 .soldi{
-    text-align: left;
-    margin-bottom: 10px;
+    
     margin: 20px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
+    width: 50%;
+    display: inline-block;
 }
 .mese{
     text-align: left;
@@ -219,9 +223,13 @@ header > ul > li{
     margin-bottom: 50px;
 }
 .utente{
+    font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     margin: 25px;
+    width: 50%;
+    display: inline-block;
+    
 }
 .colonna{
     width: 250px;
@@ -231,6 +239,7 @@ header > ul > li{
     padding: 10px 20px;
     z-index: 0;
     margin: auto;
+    right: 10%;
 }
 .acquista{
     margin: 25px;
@@ -263,11 +272,32 @@ hr{
 .check{
     color: blue;
 }
-.col2 > ul >li{
+.lista2{
     display: inline-block;
     margin: 10px;
     max-width: 250px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     text-align: justify;
+    font-size: 14px;
+}
+.enterprise{
+    width: 97%;
+    height: 280px;
+    margin: auto;
+    border: 2px solid lightgray;
+    position: relative;
+}
+.xxl{
+    width: 250px;
+    height: 40px;
+    background-color: #0061ff;
+    padding: 10px 20px;
+    z-index: 0;
+    display: inline;
+    left: 20%;
+    bottom: 52%;
+    
+    
+    
 }
