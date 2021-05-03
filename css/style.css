@@ -186,9 +186,6 @@ a{
     text-transform: capitalize;
     padding-top: 15px;
 }
-.prezzo{
-    padding: 0;
-}
 
  h2{
     text-align: left;
@@ -271,6 +268,7 @@ hr{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     text-align: justify;
+    padding-left: 10px;
 }
 .check{
     color: blue;
@@ -347,7 +345,6 @@ hr{
 }
 .col2{
     width: calc(90% / 3);
-    /* height: 500px; */
     margin: 50px 20px 50px 20px;
     display: inline;
     float: left; 
@@ -371,13 +368,7 @@ hr{
     text-decoration: underline;
     color: #000;
 }
-.container > h1{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    max-width: 800px;
-    text-align: left;
-    line-height: 50px;
-}
+
 .blu{
     color: blue;
     text-decoration: underline;
@@ -386,3 +377,116 @@ hr{
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
 }
+.container2{
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+.container2 > h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    max-width: 800px;
+    text-align: left;
+    line-height: 50px;
+    font-size: 46px;
+}
+.container-center{
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    margin-top: 50px;
+}
+.col3{
+    width: calc(100% / 3);
+    height: 100%;
+    float: left;
+    
+}
+.container-center::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.col3::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.item{
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+.item-big{
+    width: 100%;
+    height: 100%;
+    background-color: #f5f5f5;
+}
+.green{
+    background-color: #a2d39b;
+}
+.darkred{
+    background-color: #62082b;
+}
+.lightblue{
+    background-color: #0193ce;
+}
+.red{
+    background-color: #ff1c1d;
+}
+.red2{
+    background-color: #d50020;
+}
+.lightblue2{
+    background-color: #b4d0e6;
+}
+.blue{
+    background-color: #0d2481;
+}
+.yellow{
+    background-color: #ffd930;
+}
+.img-logo{
+    width: 70%;
+    height: auto;
+    position: relative;
+    top: 40%;
+    left: 15%;
+    filter: invert(1);
+
+}
+.img-logo2{
+    width: 40%;
+    height: auto;
+    position: relative;
+    top: 30%;
+    left: 30%;
+    filter: invert(1);
+}
+.item:active{
+    border: 10px solid #d0eacd;
+}
+.logo-big{
+    width: 30%;
+    height: auto;
+    position: relative;
+    left: 10%;
+    top: 20%;
+}
+.item-big > p{
+    position: relative;
+    top: 30%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 400px;
+    margin: auto;
+}
+.morten{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    position: relative;
+    top: 40%;
+    left: 10%;
+}
+
