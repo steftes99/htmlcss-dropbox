@@ -250,7 +250,7 @@ a{
     color: blue;
     text-decoration: underline;
 }
-hr{
+.col > hr{
     margin-right: 220px;
     margin-left: 30px;
     margin-top: 30px;
@@ -427,6 +427,7 @@ hr{
 }
 .green{
     background-color: #a2d39b;
+    border: 10px solid #d0e9cd;
 }
 .darkred{
     background-color: #62082b;
@@ -466,9 +467,8 @@ hr{
     left: 30%;
     filter: invert(1);
 }
-.item:active{
-    border: 10px solid #d0eacd;
-}
+
+
 .logo-big{
     width: 30%;
     height: auto;
@@ -522,4 +522,34 @@ hr{
     line-height: 50px;
     margin: auto;
     padding-left: 20px;
+}
+.container > h5{
+    font-size: 32px;
+    line-height: 38px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.container > hr{
+    color: lightgray;
+
+}
+.faq{
+    margin-bottom: 100px;
+}
+.faq > hr{
+    color: lightgray;
+}
+.faq > p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.chevron{
+    float: right;
+    margin-right: 40px;
+    color: #1d1d1d;
 }
